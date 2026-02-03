@@ -15,7 +15,7 @@ public class ClienteTachi {
             while ((msg = entrada.readLine()) != null) {
                 System.out.println("SERVIDOR: " + msg);
 
-                if (msg.equals("¡AHORA!")) {
+                if (msg.equals("AHORA!!!!!")) {
                     System.out.println("¡PULSA ENTER RÁPIDO!");
                     teclado.nextLine();
                     salida.println("YA");
