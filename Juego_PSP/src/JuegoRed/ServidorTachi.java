@@ -10,7 +10,7 @@ public class ServidorTachi {
             System.out.println("Servidor iniciado");
 
             while (true) {
-                // Acepta la conexión
+
                 Socket cliente = servidor.accept();
                 System.out.println("Conexion establecida.");
 
